@@ -1,0 +1,53 @@
+{
+    "common": {
+        "name": "starline-almaz",
+        "version": "1.0.0",
+        "news": {
+            "0.2.0": {
+                "en": "fix error send command",
+                "de": "fix error send command",
+                "ru": "fix error send command"
+            },
+            "0.1.9": {
+                "en": "change send command, fix show balance",
+                "de": "change send command, fix show balance",
+                "ru": "change send command, fix show balance"
+            },
+            "0.1.8": {
+                "en": "change link get data",
+                "de": "change link get data",
+                "ru": "change link get data"
+            },
+            "0.1.7": {
+                "en": "change position x and y to longitude and latitude",
+                "de": "change position x and y to longitude and latitude",
+                "ru": "Замена статусов местоположения авто position_x(y) на longitude и latitude"
+            }
+        },
+        "title":                    "Autoalarm StarLine adapter",
+        "desc":                     {
+ 			             "en": "ioBroker adapter for autoalarm StarLine Telematica 2.0",
+ 			             "de": "ioBroker adapter for autoalarm StarLine Telematica 2.0",
+ 			             "ru": "ioBroker драйвер для автосигнализации StarLine Телематика 2.0"
+	},
+	"license":                  "MIT",
+	"authors": [
+            "instalator"
+        ],
+        "platform":                 "Javascript/Node.js",
+        "mode":                     "daemon",
+        "icon":                     "logo-192x192.png",
+        "enabled":                  true,
+	"extIcon":                  "https://raw.githubusercontent.com/instalator/ioBroker.starline/master/admin/logo-192x192.png",
+	"keywords":                 ["starline", "vis"],
+        "readme":                   "https://github.com/instalator/ioBroker.starline/blob/master/README.md",
+	"loglevel":                 "info",
+        "type":                     "alarm",
+        "restartAdapters":          ["vis"]
+    },
+    "native": {
+        "login": "",
+        "password": ""
+    },
+    "objects": []
+}
